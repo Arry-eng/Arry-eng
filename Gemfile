@@ -12,5 +12,9 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
   
+# Gemfile
+
+gem "minima", github: "jekyll/minima", ref: "1e8a445"
+
 gemspec
 
